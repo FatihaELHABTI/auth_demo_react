@@ -46,7 +46,7 @@ const Dashboard = () => {
             <h3>Your Account Information</h3>
             <ul>
               <li><strong>Name:</strong> {user.name}</li>
-              <li><strong>Email:</strong> {user.email}</li>
+              <li><strong>Login:</strong> {user.login}</li>
             </ul>
           </div>
         </div>

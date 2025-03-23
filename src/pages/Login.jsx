@@ -6,7 +6,7 @@ import ensetLogo from '../assets/enset-logo.jpg';
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    email: '',
+    login: '',
     password: ''
   });
   const [error, setError] = useState('');
@@ -53,9 +53,9 @@ const Login = () => {
           <div className="form-group">
             <input
               type="text"
-              id="email"
-              name="email"
-              value={formData.email}
+              id="login"
+              name="login"
+              value={formData.login}
               onChange={handleChange}
               placeholder="Login"
               required
